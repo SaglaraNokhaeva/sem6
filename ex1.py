@@ -8,6 +8,7 @@ import math as mt
 import numpy as np
 
 
+
 a = rndint(0, 5)
 
 
