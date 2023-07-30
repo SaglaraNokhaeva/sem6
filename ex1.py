@@ -6,9 +6,8 @@
 from random import randint as rndint
 import math as mt
 import numpy as np
-
-
+from guess_num import guess_num
 
 a = rndint(0, 5)
 
-
+guess_num()
