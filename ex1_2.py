@@ -10,4 +10,4 @@ from guess_num import guess_num
 
 a = rndint(0, 5)
 
-guess_num()
+guess_num(1, 100, 5)
