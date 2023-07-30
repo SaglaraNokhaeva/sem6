@@ -17,10 +17,11 @@ def quest(question, answers, try_count):
 
 
 def more_quests(iters):
-    quest = {'Сколько ног у муравья?': ['4', '5', '6'],
+    quests = {'Сколько ног у муравья?': ['4', '5', '6'],
              'Какого цвета огнетушитель?': ['Красный', 'Синий'],
              'Сколько лет тебе было в детстве?': [str (i) for i in range(19)],
              'Идут два крокодила, один зелёный, другой направо. Зачем мне холодильник, если я не курю?': ['Да', 'Гладиолус']}
     for i in range(iters):
-        pass
+        temp = choice(list(quests.keys()))
+        quest(temp, quests[temp], 3)
 

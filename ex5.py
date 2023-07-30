@@ -4,6 +4,6 @@
 # � Функция в цикле вызывает загадывающую функцию,
 # чтобы передать ей все свои загадки.
 
-from my_games.ex4_questions import quest
+from my_games.ex5_quest import more_quests
 
-quest('Сколько ног у муравья?', ['1', '2', '3', '4', '5', '6'], 3)
+more_quests(3)
