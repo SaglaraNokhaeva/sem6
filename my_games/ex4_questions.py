@@ -12,4 +12,3 @@ def quest(question, answers, try_count):
     else:
         print('Исчерпаны все попытки. Сожалею.')
         quit()
-
