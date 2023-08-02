@@ -1,7 +1,5 @@
 import random
 
-# print(random_queens())
-
 def arrangements(count):
     def random_queens():
 
