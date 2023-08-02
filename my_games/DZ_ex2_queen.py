@@ -25,6 +25,6 @@ def queens(my_str):
 
 
 
-    print(queens('1 1 2 6 3 8 4 3 5 7 6 4 7 2 8 5'))
-    print(queens('1 3 2 5 3 2 4 8 5 1 6 7 7 4 8 6'))
+print(queens('1 1 2 6 3 8 4 3 5 7 6 4 7 2 8 5'))
+print(queens('1 3 2 5 3 2 4 8 5 1 6 7 7 4 8 6'))
 
