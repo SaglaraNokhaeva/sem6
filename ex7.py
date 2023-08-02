@@ -8,5 +8,6 @@
 # � Проверку года на високосность вынести в отдельную защищённую функцию.
 
 from my_games import chek_date
+from sys import argv
 
 print(chek_date(input('Введите дату в формате DD.MM.YYYY: ')))
