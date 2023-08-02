@@ -29,7 +29,7 @@ def arrangements(count):
         return result
 
     while count > 0:
-        # print(random_queens())
+        print(random_queens())
         if random_queens():
             print(list_position)
             count -= 1
